@@ -78,3 +78,22 @@ Thanks to [Heroku](https://www.heroku.com/) we will be able to deploy our applic
 Link to the related article in Towards Data Science [HERE](https://towardsdatascience.com/machine-learning-in-production-keras-flask-docker-and-heroku-933b5f885459)
 
 Link to Twitter account [HERE](https://twitter.com/aissam_out)
+
+
+# Setup instructions
+In order to create a conda environment to run this project locally, use the following commands (from your repo's root directory):
+<ul>
+  <li><code>$ conda create --name ml_in_prod python=3.9</code></li>
+  <li><code>$ conda activate ml_in_prod</code></li>
+  <li><code>$ pip install -r requirements.txt</code></li>
+</ul>
+
+In case you need to delete this environment, use the following command:
+<code>$ conda remove --name ml_in_prod --all</code><br>
+
+If you want to run the model locally, use the following command:
+<ul>
+  <li><code>$ chmod +x model.py</code></li>
+  <li><code>$ ./model.py</code>  or  <code>$ python -i ./model.py</code></li>
+
+
