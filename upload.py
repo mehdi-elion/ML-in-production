@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from flask import Flask, render_template, request
 # if you encounter dependency issues using 'pip install flask-uploads'
 # try 'pip install Flask-Reuploaded'
